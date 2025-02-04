@@ -75,6 +75,10 @@
         "symfony/polyfill-php82": "*"
     },
     "scripts": {
+        "app:analyse": "tools/phpstan/vendor/bin/phpstan analyse --configuration phpstan.neon.dist --memory-limit 1G --error-format=table",
+        "app:fix": "tools/php-cs-fixer/vendor/bin/php-cs-fixer fix --config=.php-cs-fixer.dist.php --allow-risky=yes",
+        "app:rector": "tools/rector/vendor/bin/rector process --dry-run",
+        "app:doc": "./phpdoc.phar",
         "auto-scripts": {
             "cache:clear": "symfony-cmd",
             "assets:install %PUBLIC_DIR%": "symfony-cmd",

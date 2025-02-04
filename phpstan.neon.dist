@@ -1,0 +1,13 @@
+parameters:
+    level: 4
+    paths:
+        - config
+        - migrations
+        - src
+        - tests
+    scanDirectories:
+        - config
+        - migrations
+        - src
+        - tests
+    tmpDir: var/cache/phpstan/
