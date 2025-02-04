@@ -1,6 +1,14 @@
 {
     "type": "project",
-    "license": "proprietary",
+    "name": "codingcompetitions/codingquest-2023",
+    "description": "",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Manuel Alejandro Gómez Nicasio",
+            "email": "az-dev@outlook.com"
+        }
+    ],
     "minimum-stability": "stable",
     "prefer-stable": true,
     "require": {
